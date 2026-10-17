@@ -33,7 +33,7 @@ export function FlowEditor() {
   const [reactFlowInstance, setReactFlowInstance] = useState<any>(null);
 
   const onConnect = useCallback(
-    (params: Connection | Edge) => setEdges((eds) => addEdge({ ...params, animated: true, style: { strokeWidth: 3, stroke: '#64748b' } }, eds)),
+    (params: Connection | Edge) => setEdges((eds) => addEdge({ ...params, animated: true, style: { strokeWidth: 3, stroke: '#64748b' } } as Edge, eds)),
     [setEdges]
   );
 

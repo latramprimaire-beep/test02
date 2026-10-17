@@ -4,7 +4,13 @@
  */
 
 import { FlowEditor } from "./components/FlowEditor";
+import { ErrorBoundary } from "./components/ErrorBoundary";
 
 export default function App() {
-  return <FlowEditor />;
+  return (
+    <ErrorBoundary>
+      <FlowEditor />
+    </ErrorBoundary>
+  );
 }
+
