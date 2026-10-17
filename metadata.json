@@ -1,0 +1,6 @@
+{
+  "name": "ScratchFlow Generator",
+  "description": "Un générateur de programmes Scratch (.sb3) basé sur React Flow avec éditeur visuel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
